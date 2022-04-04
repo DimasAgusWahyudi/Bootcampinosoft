@@ -100,7 +100,7 @@
                 }
                 public function pangkat($bilangan1, $bilangan2)
                 {
-                    if($this->dayabatterai < 0){
+                    if($this->dayabatterai > 0){
                         $hasil = $bilangan1;
                         for($i=0;$i<($bilangan2-1);$i++)
                         {
